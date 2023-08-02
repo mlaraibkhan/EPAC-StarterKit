@@ -4,7 +4,7 @@ How to use this starter kit
 
 # Terminology
 | Full name	| Simplified use in this documentation |
-|----------|:-----------:|-----------:|
+|----------|:-----------:|-----------|
 | Policy definition(s)	| Policy, Policies |
 | Initiative definition(s) or Policy Set definition(s)	| Policy Set(s) |
 | Policy Assignment(s) of a Policy or Policy Set	| Assignment(s) |
