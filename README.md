@@ -3,14 +3,15 @@ How to use this starter kit
 ---
 
 # Terminology
-Full name	| Simplified use in this documentation
-Policy definition(s)	| Policy, Policies
-Initiative definition(s) or Policy Set definition(s)	| Policy Set(s)
-Policy Assignment(s) of a Policy or Policy Set	| Assignment(s)
-Policy Assignment(s) of a Policy Set	| Policy Set Assignment
-Policy Exemption(s)	Exemption(s)
-Role Assignment(s)s for Managed Identities required by Policy Assignments	| Role Assignment(s)
-Policies, Policy Sets, Assignments and Exemptions	| Policy resources
+| Full name	| Simplified use in this documentation |
+|----------|:-----------:|-----------:|
+| Policy definition(s)	| Policy, Policies |
+| Initiative definition(s) or Policy Set definition(s)	| Policy Set(s) |
+| Policy Assignment(s) of a Policy or Policy Set	| Assignment(s) |
+| Policy Assignment(s) of a Policy Set	| Policy Set Assignment |
+| Policy Exemption(s)	| Exemption(s) |
+| Role Assignment(s)s for Managed Identities required by Policy Assignments	| Role Assignment(s)|
+| Policies, Policy Sets, Assignments and Exemptions	| Policy resources |
 
 ---
 
