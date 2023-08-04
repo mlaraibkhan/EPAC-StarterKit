@@ -1,6 +1,7 @@
 name: Build Deployment Plan
 
 env:
+  pacEnvironment: pac-env # Change this to a PAC environment name
   definitionsRootFolder: policyDefinitions
   planFolder: Output
 
