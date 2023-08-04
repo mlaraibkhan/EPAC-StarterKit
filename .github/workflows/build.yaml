@@ -1,7 +1,7 @@
 name: Build Deployment Plan
 
 env:
-  pacEnvironment: dev
+  pacEnvironment: securiment
   definitionsRootFolder: policyDefinitions
   planFolder: Output
 
