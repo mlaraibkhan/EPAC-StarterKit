@@ -1,7 +1,6 @@
 name: Build Deployment Plan
 
 env:
-  pacEnvironment: gh-action # Change this to a PAC environment name
   definitionsRootFolder: policyDefinitions
   planFolder: Output
 
