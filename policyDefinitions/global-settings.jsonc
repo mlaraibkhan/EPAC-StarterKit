@@ -3,16 +3,16 @@
     "pacOwnerId": "bf3df071-5d07-49e2-8700-e7ee891f10a8",
     "pacEnvironments": [
         {
-            "pacSelector": "Tenant Root Group",
+            "pacSelector": "c9684491-59eb-48cc-8c68-e3300219ff04",
             "cloud": "AzureCloud",
             "tenantId": "c9684491-59eb-48cc-8c68-e3300219ff04",
-            "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/Tenant Root Group"
+            "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/c9684491-59eb-48cc-8c68-e3300219ff04"
         },
         {
-            "pacSelector": "Tenant Root Group",
+            "pacSelector": "c9684491-59eb-48cc-8c68-e3300219ff04",
             "cloud": "AzureCloud",
             "tenantId": "c9684491-59eb-48cc-8c68-e3300219ff04",
-            "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/Tenant Root Group", // replaces rootScope
+            "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/c9684491-59eb-48cc-8c68-e3300219ff04", // replaces rootScope
             "inheritedDefinitionsScopes": [], // [optional] inherited definition scopes used but not managed by this repository, scopes must be visible from deploymentScope
             "desiredState": { // [optional]
                 "strategy": "full", // default full
@@ -44,7 +44,7 @@
             "/resourceGroupPatterns/excluded-rg*",
         ],
         "tenant": [
-            "/providers/Microsoft.Management/managementGroups/Tenant Root Group"
+            "/providers/Microsoft.Management/managementGroups/c9684491-59eb-48cc-8c68-e3300219ff04"
         ]
     }
 }
