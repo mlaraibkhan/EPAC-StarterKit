@@ -2,7 +2,7 @@ name: Build Deployment Plan
 
 env:
   pacEnvironment: gh-action # Change this to a PAC environment name
-  definitionsRootFolder: Definitions
+  definitionsRootFolder: policyDefinitions
   planFolder: Output
 
 on: workflow_dispatch
