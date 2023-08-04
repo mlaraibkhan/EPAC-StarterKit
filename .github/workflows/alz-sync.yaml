@@ -1,4 +1,4 @@
-name: Sync ALZ Policy Objects
+name: Sync Azure landing zone Policy Objects
 
 env:
   pacEnvironment: c9684491-59eb-48cc-8c68-e3300219ff04
