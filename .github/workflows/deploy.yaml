@@ -1,7 +1,7 @@
 name: Deploy Policy Plan and Roles
 
 env:
-  pacEnvironment: gh-action # Change this to a PAC environment name
+  pacEnvironment: Tenant Root Group # Change this to a PAC environment name
   definitionsRootFolder: policyDefinitions
   planFolder: Output
 
