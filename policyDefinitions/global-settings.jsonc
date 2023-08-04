@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/global-settings-schema.json",
-    "pacOwnerId": "11111111-2222-3333-4444-555555555555",
+    "pacOwnerId": "bf3df071-5d07-49e2-8700-e7ee891f10a8",
     "pacEnvironments": [
         {
             "pacSelector": "Tenant Root Group",
