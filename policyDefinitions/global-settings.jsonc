@@ -6,7 +6,7 @@
             "pacSelector": "securiment",
             "cloud": "AzureCloud",
             "tenantId": "c9684491-59eb-48cc-8c68-e3300219ff04",
-            "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/dev"
+            "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/securiment"
         },
         {
             "pacSelector": "securiment",
