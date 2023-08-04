@@ -1,7 +1,7 @@
 name: Build Deployment Plan
 
 env:
-  pacEnvironment: Tenant Root Group
+  pacEnvironment: c9684491-59eb-48cc-8c68-e3300219ff04
   definitionsRootFolder: policyDefinitions
   planFolder: Output
 
