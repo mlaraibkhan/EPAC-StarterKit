@@ -27,4 +27,4 @@ jobs:
             git push --set-upstream origin $branchName
             gh pr create -B main -H $branchName --title "Verify Synced Policies - $branchName" -b "Checkout this PR branch and validate changes before merging."
         env:
-            GITHUB_TOKEN: ${{ secrets.MY_PAT }}
+            GITHUB_TOKEN: ${{ secrets.REPO_PAT }}
