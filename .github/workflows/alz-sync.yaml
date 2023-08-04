@@ -1,7 +1,7 @@
 name: Sync ALZ Policy Objects
 
 env:
-  pacEnvironment: Tenant Root Group
+  pacEnvironment: c9684491-59eb-48cc-8c68-e3300219ff04
   DefinitionsRootFolder: policyDefinitions # Change this to the folder where your policy definitions are stored
 
 on:
