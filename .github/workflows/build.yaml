@@ -2,7 +2,7 @@ name: Build Deployment Plan
 
 env:
   pacEnvironment: c9684491-59eb-48cc-8c68-e3300219ff04
-  definitionsRootFolder: policyRootDefinitions
+  definitionsRootFolder: policyDefinitions
   planFolder: OutputDefinitions
 
 on: workflow_dispatch
