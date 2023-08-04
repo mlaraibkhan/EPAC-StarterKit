@@ -1,14 +1,11 @@
 name: Deploy Policy Plan and Roles
 
 env:
-  REVIEWER: anwather # Change this to a GitHub reviewer
   pacEnvironment: gh-action # Change this to a PAC environment name
-  definitionsRootFolder: Definitions
+  definitionsRootFolder: policyDefinitions
   planFolder: Output
 
-on:
-  pull_request_review:
-    types: [submitted]
+on: workflow_dispatch
 
 jobs:
   deploy:
