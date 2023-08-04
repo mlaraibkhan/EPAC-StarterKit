@@ -3,16 +3,16 @@
     "pacOwnerId": "11111111-2222-3333-4444-555555555555",
     "pacEnvironments": [
         {
-            "pacSelector": "epac-dev",
+            "pacSelector": "securiment",
             "cloud": "AzureCloud",
-            "tenantId": "77777777-8888-9999-1111-222222222222",
-            "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/EPAC-Dev"
+            "tenantId": "c9684491-59eb-48cc-8c68-e3300219ff04",
+            "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/dev"
         },
         {
-            "pacSelector": "tenant",
+            "pacSelector": "securiment",
             "cloud": "AzureCloud",
-            "tenantId": "77777777-8888-9999-1111-222222222222",
-            "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/Contoso-Root", // replaces rootScope
+            "tenantId": "c9684491-59eb-48cc-8c68-e3300219ff04",
+            "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/securiment", // replaces rootScope
             "inheritedDefinitionsScopes": [], // [optional] inherited definition scopes used but not managed by this repository, scopes must be visible from deploymentScope
             "desiredState": { // [optional]
                 "strategy": "full", // default full
@@ -37,14 +37,14 @@
         }
     ],
     "managedIdentityLocations": {
-        "*": "eastus2"
+        "*": "westeurope"
     },
     "globalNotScopes": {
         "*": [
             "/resourceGroupPatterns/excluded-rg*",
         ],
         "tenant": [
-            "/providers/Microsoft.Management/managementGroups/EPAC-Dev"
+            "/providers/Microsoft.Management/managementGroups/securiment"
         ]
     }
 }
