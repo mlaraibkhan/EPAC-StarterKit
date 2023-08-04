@@ -1,7 +1,7 @@
 name: Build Deployment Plan
 
 env:
-  pacEnvironment: securiment
+  pacEnvironment: Pay-As-You-Go-Securiment
   definitionsRootFolder: policyDefinitions
   planFolder: Output
 
